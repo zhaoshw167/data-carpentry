@@ -66,7 +66,7 @@ def main(inargs):
 
 if __name__ == '__main__':
 #说明：在命令行下依次输入pr_file，season，output_file，并将这三个字符串整合到一个变量args中，使整个脚本显得更加干净。
-    description='Plot the precipitation climatology.'
+    description='Plot the precipitation climatology for a given season.'
     parser = argparse.ArgumentParser(description=description)
     
     parser.add_argument("pr_file", type=str, help="Precipitation data file")
